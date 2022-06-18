@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    background-color: #f2f2f2;
+}
+.button-1, .button-2{
+    position: absolute;
+    padding:15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+   
+ 
+ }
+ .button-1{
+     background-color:#e38826; 
+     margin-left: 5%;
+     
+ }
+ .button-1 a{
+     color: #FFFFFFC0;
+     text-decoration: none;
+ }
+ .button-2{
+     background-color: #006970;
+     color: #FFFFFFC0;
+    margin-left: 12%;
+ }
+ .button-2 a{
+     color: #FFFFFFC0;
+     text-decoration: none;
+ }
+main{
+    
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-flow: wrap;
+    font-size: 15px;
+}
+.box-content{
+    display: flex;
+    }
+img{
+    margin-bottom: 30px;
+}
+h3{
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    color: #f2f2f2;
+    font-family:  'Big Shoulders Display', cursive;
+    font-size: 30px;
+}
+.box1{
+    background-color: #e38826;
+    padding: 3em;
+    border-radius: 10px 0 0 10px;
+   
+}
+
+ p{
+    padding-bottom: 10px;
+    color: #FFFFFFC0;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.box2{
+    background-color: #006970;
+    padding:3em;
+    
+}
+ 
+
+
+.box3{
+    background-color: #004241;
+    padding:3em;
+    border-radius: 0 10px 10px 0;
+  
+
+}
+
+.btn1,.btn2,.btn3 {
+    margin-top: 80px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    width: 150px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    
+   
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid  #f2f2f2;
+    color:  #f2f2f2;
+}
+
+.btn1{
+    color: #e38826;
+    
+}
+.btn2{
+    color:#006970;
+
+}
+.btn3{
+    color:#004241;
+
+}
+
+@media screen and (max-width:500px) {
+    main{
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-flow: wrap;
+        font-size: 15px;
+    }
+    .box-content{
+        display: grid;
+         }
+    .box1,.box3{
+    border-radius:0 0 0 0;
+    }
+    .button-1, .button-2{
+        position: relative;
+        margin-bottom: 50px;
+        }
+     .button-2{
+        background-color: #006970;
+        margin-left: 8%;
+}
+}
